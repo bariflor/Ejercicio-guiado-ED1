@@ -1,0 +1,48 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F06E6E;
+	color: #6B0707;
+}
+img{
+	width: 100%;
+	border: 6px solid #BD023B;
+	padding: 2%;
+}
+#centro-civico{
+	padding: 5%;
+}
+.titulo{
+	text-align: center;
+	margin:3%; 
+}
+.civico{
+	font-size: 20px;
+	padding: 5%;
+}
+@media (min-width: 535px) and (max-width: 824px) {
+	[class*="col-"]{
+		width: 100%;
+	}	
+	body{
+		background: black;
+		font-family: "Lobster", cursive;
+		color: white;
+	}
+	img{
+		border: 6px solid white;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 534px) {
+	[class*="col-"]{
+		width: 100%;
+	}	
+	body{
+		background: #07B399;
+		font-family: "Indie Flower", cursive;
+		color: #DFDFDF;
+	}
+	img{
+		display: none;
+	}
+}
