@@ -19,6 +19,9 @@ img{
 	font-size: 20px;
 	padding: 5%;
 }
+/*================================
+=            @MEDIA-2            =
+================================*/
 @media (min-width: 535px) and (max-width: 824px) {
 	[class*="col-"]{
 		width: 100%;
@@ -46,3 +49,5 @@ img{
 		display: none;
 	}
 }
+
+/*=====  End of @MEDIA-2  ======*/
